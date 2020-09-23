@@ -1,8 +1,11 @@
 package midianet.model;
 
-import midianet.model.Animal;
-
 public class Passaro extends Animal {
+
+
+    public Passaro(String nome) {
+        super(nome);
+    }
 
     public void voar(){
         System.out.println("Estou voando.");

@@ -1,25 +1,20 @@
 package midianet;
 
 import midianet.calculadora.Display;
+import midianet.model.Cachorro;
 
 import javax.swing.*;
 
 public class Main {
 
     public static void main(String[] args) {
-//        try {
-//            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
         try {
             UIManager.setLookAndFeel( UIManager.getCrossPlatformLookAndFeelClassName() );
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
+//        Cachorro cachorro = new Cachorro();
+//        cachorro.apresentar();
         Display display = new Display();
     }
 }
@@ -61,7 +56,7 @@ public class Main {
 //        carroB.diminuir(10);
 //        carroB.frear();
 //        carroB.getVelocidade();
-//        Cachorro cachorro = new Cachorro();
+
 //        Gato gato = new Gato();
 //        Passaro passaro = new Passaro();
 //

@@ -7,6 +7,10 @@ public class Carro {
     private boolean farol;
     public int maxima;
 
+    public Carro(){
+
+    }
+
     public void acelerar(int valor){
         if(velocidade + valor > maxima) throw new RuntimeException("Velocidade máxima e de :" + maxima );
         velocidade = velocidade + valor;

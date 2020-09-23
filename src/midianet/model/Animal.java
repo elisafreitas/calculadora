@@ -1,8 +1,11 @@
 package midianet.model;
 
 public abstract class Animal {
+    private String nome;
 
-    public String nome;
+    public Animal(String nome){
+        this.nome = nome;
+    }
 
     public void apresentar(){
         System.out.println("Ola, eu sou o " + nome);
